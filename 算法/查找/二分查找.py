@@ -1,6 +1,6 @@
 # -*- coding:utf-8 -*-
 def binary_search(list, item):
-    '二分查找，在有序列表中查询一个数'
+    '二分查找，在有序列表中查询一个数,O(logn)'
     low = 0
     high = len(list) - 1
 
